@@ -15,12 +15,7 @@
     "--socket=x11",
     "--share=network",
     "--share=ipc",
-
-    "--talk-name=ca.desrt.dconf",
-    "--filesystem=xdg-run/dconf",
-    "--filesystem=~/.config/dconf:ro",
     "--filesystem=xdg-run/app/com.discordapp.Discord:create",
-    "--env=DCONF_USER_CONFIG_DIR=.config/dconf"
   ],
   "modules": [
     {
@@ -77,7 +72,7 @@
         {
           "type": "git",
           "url": "https://github.com/dolphin-emu/dolphin.git",
-          "commit": "91f5d577cc9718dfbfdc2243e7f757de343eaf53"
+          "commit": "a4837a5c5dc5d71f4b93dcb2fd5b80c5cfab381a"
         },
         {
           "type": "patch",
