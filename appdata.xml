@@ -16,8 +16,12 @@
     <screenshot>https://raw.githubusercontent.com/flathub/org.DolphinEmu.dolphin-emu/master/screenshots/3.png</screenshot>
     <screenshot>https://raw.githubusercontent.com/flathub/org.DolphinEmu.dolphin-emu/master/screenshots/4.png</screenshot>
   </screenshots>
+  <provides>
+    <binary>dolphin-emu</binary>
+    <id>dolphin-emu.desktop</id>
+  </provides>
   <releases>
-    <release date="2019-06-02" version="5.0-10411"/>
+    <release date="2021-11-13" version="5.0-15445"/>
   </releases>
   <url type="homepage">https://dolphin-emu.org</url>
   <url type="help">https://forums.dolphin-emu.org</url>
